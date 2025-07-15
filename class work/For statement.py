@@ -27,6 +27,7 @@ l=["vinay","chotu","muddu","vicky"]
 for i in l:
     if i=="muddu":
         break
-    print(i.center(20,"---"))
+    print(i.center(20,"---")) 
 else:
     print("end of the names")
+    
