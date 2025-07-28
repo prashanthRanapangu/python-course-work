@@ -20,7 +20,7 @@ print(Discount_Percentage)
 #types of Output Formatting:
 #1️.Using Commas (Simple Print Method)
 print(ProductName,Price,Discount_Percentage,movie_genre)
-#output:Netmirror 1499.0 15.0 ('comedy', 'Horror', 'Romantic', 'Triller')
+#output:Aha 1499.0 15.0 ('comedy', 'Horror', 'Romantic', 'Triller')
 
 #2️.Using Modulo Operator (% Formatting)
 print("price:%2f,productID:%d" %(Price,productID))
@@ -32,7 +32,7 @@ print(f"features :{Features},location : {Location}")
 
 #4️.Using str.format() Method
 print("productName:{}, productID:{}".format(ProductName,productID))
-#output:productName:Netmirror, productID:1234
+#output:productName:Aha, productID:1234
 
 
 #outputs:
@@ -47,3 +47,4 @@ print("productName:{}, productID:{}".format(ProductName,productID))
 #enter movie directors:{"saalar":"Prashanth","bahubali":"Rajamouli"}
 #enter customer care :987654321
 #enter location:Hyderabad 
+ 
